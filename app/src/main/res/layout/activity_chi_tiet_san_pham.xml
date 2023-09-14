@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ChiTietSanPhamActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/Xanh"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <FrameLayout
+                android:id="@+id/frame_giohang"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="27dp">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/giohang2" />
+
+                <com.nex3z.notificationbadge.NotificationBadge
+                    android:id="@+id/ntf_soluong"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="right|top"
+                    />
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_chitietsp"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:src="@drawable/home"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginLeft="5dp"
+            >
+            <TextView
+            android:id="@+id/tv_tenchitietsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Sản Phẩm"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_giachitietsp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Giá: 2100000 Đ"
+                android:textSize="18dp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spn_dienthoai"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/khung"
+
+                    />
+                <LinearLayout
+                    android:id="@+id/ln_btn_themvaogiohang"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/khung"
+                    android:backgroundTint="@color/Xanh"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/giohang"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thêm Vào Giỏ hàng"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Thông Tin Sản Phẩm"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_motasanpham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Điều khiến tôi không biết nên cười hay nên khóc là bà cụ trong bài nào cũng đứng ở ngã tư, cũng tóc bạc phơ, dáng người gầy gầy, lưng cong cong, đôi mắt hiền từ Chiếc ví nào cũng nhặt được trên đường đi học về, cũng màu nâu đậm, hình vuông, bên trong có chứa nhiều giấy tờ quan trọng và một số tiền lớn"/>
+    </ScrollView>
+
+</LinearLayout>

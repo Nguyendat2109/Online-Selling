@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/Xam"
+    tools:context=".TimKiemActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/Xanh"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:gravity="center"
+    android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiL_tiemkiem"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+
+            android:hint="Nhập sản phẩm cần tìm"
+            android:textSize="15dp"
+            app:endIconMode="clear_text"
+            app:boxStrokeColor="@color/Xanh"
+            app:hintTextColor="@color/Xanh"
+            app:boxStrokeWidthFocused="3dp"
+
+            app:startIconDrawable="@drawable/ic_earch">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiLed_timkiem"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageButton
+            android:id="@+id/btn_timkiem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/khung"
+            android:backgroundTint="@color/Xanh"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_earch"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/grv_tiemkiem"
+        android:numColumns="2"
+        android:paddingLeft="13dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

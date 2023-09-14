@@ -1,0 +1,35 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/drawable/khung.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/drawable/menu.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.3861788617886179" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_dang_ki.xml" value="0.25" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_dang_nhap.xml" value="0.2" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_dien_thoai.xml" value="0.25" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_don_hang.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_gio_hang.xml" value="0.264" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_home.xml" value="0.4" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_lap_top.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_lien_he.xml" value="0.25" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_thanh_toan.xml" value="0.2" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/activity_tim_kiem.xml" value="0.264" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_dienthoai.xml" value="0.264" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_donhang.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_giohang.xml" value="0.4" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_loadding.xml" value="0.24947916666666667" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_loading.xml" value="0.1" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_menuloaisp.xml" value="0.536" />
+        <entry key="..\:/fpt-poly/PRO1121_Du_An1/app/BanHangOnline_PH26291/app/src/main/res/layout/item_spmoi.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/tiL_email"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:hint="Email"
+    android:textSize="15dp"
+    app:endIconMode="clear_text"
+    app:boxStrokeColor="@color/Xanh"
+    app:hintTextColor="@color/Xanh"
+    app:boxStrokeWidthFocused="3dp"
+
+    app:startIconDrawable="@drawable/ic_email">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tiLed_dangky_email"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_nbphone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Số điện thoại"
+        android:textSize="15dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+
+        app:startIconDrawable="@drawable/ic_phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_dangky_nbphone"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_User"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Tên người dùng"
+        android:textSize="15dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+
+        app:startIconDrawable="@drawable/user">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_dangky_user"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_pass"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Mật khẩu"
+        android:textSize="15dp"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+        app:startIconDrawable="@drawable/pass">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_dangky_pass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_repass"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập lại mật khẩu"
+        android:textSize="15dp"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+        app:startIconDrawable="@drawable/pass">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_dangky_repass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_dangky"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Xanh"
+        android:text="ĐĂNG KÝ"
+
+        />
+
+</LinearLayout>

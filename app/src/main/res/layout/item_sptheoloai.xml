@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:outlineSpotShadowColor="@color/black"
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+          >
+
+            <ImageView
+                android:id="@+id/img_dienthoai"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/anh1" />
+
+            <TextView
+                android:id="@+id/tv_tendt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điện Thoại"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:paddingLeft="3dp"
+
+
+                />
+            <TextView
+                android:id="@+id/tv_giadt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3000000"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                android:paddingLeft="3dp"
+                android:textColor="@color/Xanh"
+                android:layout_marginBottom="7dp"
+
+                />
+        </LinearLayout>
+
+
+</LinearLayout>

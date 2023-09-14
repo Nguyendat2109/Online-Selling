@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhapActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:textSize="15dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+
+        app:startIconDrawable="@drawable/ic_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_emaildangnhap"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiL_pass"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Mật Khẩu"
+        android:textSize="15dp"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/Xanh"
+        app:hintTextColor="@color/Xanh"
+        app:boxStrokeWidthFocused="3dp"
+        app:startIconDrawable="@drawable/pass">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiLed_passdangnhap"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:id="@+id/cb_ghi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+
+        android:text="Ghi Nhớ Đăng nhập"/>
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Xanh"
+        android:text="ĐĂNG NHẬP"
+
+        />
+    <TextView
+        android:id="@+id/tv_quenmatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên Mật Khẩu?"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_dangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký?"
+        android:textColor="@color/black"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
